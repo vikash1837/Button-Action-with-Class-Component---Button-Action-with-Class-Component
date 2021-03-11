@@ -15,7 +15,7 @@ class App extends Component {
     	return(
     		<div id="main">
 		<p id="para">{this.state.paragraph}</p>
-		<button id="click" onClick={this.HandleChange}></button>
+		<button id="click" onClick={this.Handlechange}></button>
 				{ /* Do not remove this main div!! */ }
     		</div>
     	);
