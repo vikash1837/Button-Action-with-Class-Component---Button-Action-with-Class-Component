@@ -3,13 +3,13 @@ import '../styles/App.css';
 
 class App extends Component {
     constructor(props) {
-		super(props);
+	    super(props);
 	    this.state={
 		   paragraph:""
 	    }
 	};
 	Handlechange=()=>{
-		this.setState({paragraph: "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"})
+		this.setState({paragraph: "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"});
 	}
     render() {
     	return(
@@ -21,7 +21,6 @@ class App extends Component {
     	);
     }
 }
-
 
 export default App;
 
